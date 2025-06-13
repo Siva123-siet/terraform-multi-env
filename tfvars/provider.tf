@@ -6,11 +6,11 @@ terraform {
     }
   }
   backend "s3" {
-    bucket = "84sremotestate"
-    key    = "remote-state-demo"
-    region = "us-east-1"
-    use_lockfile = true
-    encrypt = true
+    # bucket = "84sremotestate"
+    # key    = "remote-state-demo"
+    # region = "us-east-1"
+    # use_lockfile = true
+    # encrypt = true
     #dynamodb_table = "84sremotestate"
   }
 }
